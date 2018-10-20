@@ -1,0 +1,15 @@
+{
+  "name": "expresstest",
+  "version": "1.0.0",
+  "description": "playing around with expressJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
