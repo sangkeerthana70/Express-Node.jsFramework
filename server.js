@@ -19,7 +19,7 @@ app.get('/', (req, res) => res.send('<h1>Hello</h1>'));
 app.get('/test', (req, res) => res.send('<h1>Test route</h1>'));
 
 //dynamic routes
-app.get('/test', (req, res) => res.send(`<h1>${req.params.num}</h1>`))
+//app.get('/test/', (req, res) => res.send(`<h1>${req.params.num}</h1>`))
 
 //'/test/:id'
 app.get('/test/add/:num', (req, res) => {
